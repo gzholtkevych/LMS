@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>480</x>
-      <y>390</y>
+      <y>380</y>
       <w>200</w>
       <h>90</h>
     </coordinates>
@@ -23,7 +23,7 @@ ectsVol: int {ectsVol &gt; 0}
     <id>UMLClass</id>
     <coordinates>
       <x>190</x>
-      <y>400</y>
+      <y>390</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
@@ -35,7 +35,7 @@ ectsVol: int {ectsVol &gt; 0}
     <id>Relation</id>
     <coordinates>
       <x>340</x>
-      <y>400</y>
+      <y>390</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -47,7 +47,7 @@ ectsVol: int {ectsVol &gt; 0}
     <id>UMLClass</id>
     <coordinates>
       <x>350</x>
-      <y>560</y>
+      <y>550</y>
       <w>200</w>
       <h>50</h>
     </coordinates>
@@ -60,7 +60,7 @@ bg=yellow
     <id>UMLClass</id>
     <coordinates>
       <x>610</x>
-      <y>560</y>
+      <y>550</y>
       <w>180</w>
       <h>50</h>
     </coordinates>
@@ -73,7 +73,7 @@ bg=yellow
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>470</y>
+      <y>460</y>
       <w>160</w>
       <h>110</h>
     </coordinates>
@@ -84,7 +84,7 @@ bg=yellow
     <id>Relation</id>
     <coordinates>
       <x>570</x>
-      <y>470</y>
+      <y>460</y>
       <w>150</w>
       <h>110</h>
     </coordinates>
@@ -95,7 +95,7 @@ bg=yellow
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>600</y>
+      <y>590</y>
       <w>230</w>
       <h>70</h>
     </coordinates>
@@ -108,7 +108,7 @@ m1=*</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>670</x>
-      <y>430</y>
+      <y>420</y>
       <w>190</w>
       <h>170</h>
     </coordinates>
@@ -121,35 +121,35 @@ m1=*</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>240</x>
-      <y>200</y>
+      <y>190</y>
       <w>140</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 Competence
 bg=cyan
-(* компетентності *)</panel_attributes>
+(* компетентність *)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>780</x>
-      <y>200</y>
+      <x>790</x>
+      <y>190</y>
       <w>190</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 Outcome
 bg=cyan
-(* результати навчання *)</panel_attributes>
+(* результат навчання *)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>520</x>
-      <y>200</y>
+      <y>190</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -161,7 +161,7 @@ bg=cyan</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>370</x>
-      <y>200</y>
+      <y>190</y>
       <w>170</w>
       <h>50</h>
     </coordinates>
@@ -175,34 +175,34 @@ m2=1..*</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>630</x>
-      <y>200</y>
-      <w>170</w>
+      <y>190</y>
+      <w>180</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=outcome
 m1=1
 m2=1..*</panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>620</x>
-      <y>250</y>
-      <w>300</w>
+      <y>240</y>
+      <w>310</w>
       <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1..*
 m2=1..*</panel_attributes>
-    <additional_attributes>260.0;10.0;260.0;70.0;10.0;70.0;10.0;140.0</additional_attributes>
+    <additional_attributes>270.0;10.0;270.0;70.0;10.0;70.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>300</x>
-      <y>250</y>
+      <y>240</y>
       <w>250</w>
       <h>160</h>
     </coordinates>
@@ -214,7 +214,7 @@ m2=1..*</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>590</x>
-      <y>60</y>
+      <y>50</y>
       <w>300</w>
       <h>70</h>
     </coordinates>
@@ -229,7 +229,7 @@ foreach(c:Competence, o : Outcome)
     <id>Relation</id>
     <coordinates>
       <x>570</x>
-      <y>120</y>
+      <y>110</y>
       <w>90</w>
       <h>100</h>
     </coordinates>
@@ -240,7 +240,7 @@ foreach(c:Competence, o : Outcome)
     <id>UMLClass</id>
     <coordinates>
       <x>890</x>
-      <y>390</y>
+      <y>380</y>
       <w>170</w>
       <h>80</h>
     </coordinates>
@@ -256,7 +256,7 @@ volume: int {volume &gt; 0}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>670</x>
-      <y>410</y>
+      <y>400</y>
       <w>240</w>
       <h>40</h>
     </coordinates>
@@ -268,7 +268,7 @@ m2=1..*</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1190</x>
-      <y>430</y>
+      <y>420</y>
       <w>240</w>
       <h>160</h>
     </coordinates>
@@ -290,7 +290,7 @@ bg=cyan
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>430</y>
+      <y>420</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
