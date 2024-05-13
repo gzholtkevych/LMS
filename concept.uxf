@@ -25,7 +25,7 @@ ectsVol: int {ectsVol &gt; 0}
       <x>190</x>
       <y>400</y>
       <w>160</w>
-      <h>40</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Program
 (* освітня програма *)</panel_attributes>
@@ -49,7 +49,7 @@ ectsVol: int {ectsVol &gt; 0}
       <x>350</x>
       <y>560</y>
       <w>200</w>
-      <h>40</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>MComponent
 bg=yellow
@@ -95,14 +95,14 @@ bg=yellow
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>590</y>
+      <y>600</y>
       <w>230</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=prerequisites
 m1=*</panel_attributes>
-    <additional_attributes>130.0;10.0;130.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>130.0;10.0;130.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
