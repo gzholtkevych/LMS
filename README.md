@@ -1,4 +1,4 @@
 # LMS
 
-!["Concept"](URL_including_raw=true)
+!["Concept"](https://github.com/gzholtkevych/LMS/blob/main/concept.png)
  
