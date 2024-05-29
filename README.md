@@ -1,6 +1,6 @@
 # LMS
 
-## Консептуальна модель освітньої програми
+## Концептуальна модель освітньої програми
 
 !["Concept"](https://github.com/gzholtkevych/LMS/blob/main/concept.jpg)
  
